@@ -1,0 +1,10 @@
+name: poster-project
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Poster Project workflow is running!"
